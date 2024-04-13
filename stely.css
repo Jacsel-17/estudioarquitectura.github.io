@@ -1,0 +1,42 @@
+.logo{
+    padding-right: 250px;
+}
+header{
+    width: 100%;
+    
+}
+.fs-4{
+    color: rgb(0, 0, 0);
+}
+.nav-link{
+color: rgb(0, 0, 0);;
+}
+.nav-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 30PX;
+} 
+.blog-post{
+    margin-left: 180PX;
+    margin-right: 180PX;
+} 
+.enviar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(4, 20, 248);
+    border: none;
+    transition: 1s background;
+    transition: 2s transform;
+}
+
+.enviar:hover{
+    background-color: rgb(18, 39, 224);
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.05); 
+}
